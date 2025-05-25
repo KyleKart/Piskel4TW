@@ -26126,7 +26126,7 @@ return Q;
           name: name,
           blobData: Array.from(new Uint8Array(arrayBuffer)),
           mime: blob.type
-        }, '*');  // Replace '*' with your parent origin if possible
+        }, 'https://turbowarp.org'); // <- exact parent origin
       };
       reader.readAsArrayBuffer(blob);
       console.log('did the thing!');
