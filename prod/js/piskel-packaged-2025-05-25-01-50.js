@@ -26129,6 +26129,7 @@ return Q;
         }, '*');  // Replace '*' with your parent origin if possible
       };
       reader.readAsArrayBuffer(blob);
+      console.log('did the thing!');
     });
   };
 
