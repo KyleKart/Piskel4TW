@@ -53,6 +53,10 @@ input[type="range"] {
 a, a:visited {
   color: gold;
 }
+.canvas-container-wrapper, .display-fps,.range-fps  {
+  display: none !important;
+}
+
 body {
   background: #1D1D1D;
 }
